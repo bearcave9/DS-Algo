@@ -38,7 +38,8 @@ int height(Node* node)
 		int l_height = height(node->left);
 		int r_height = height(node->right);
 
-		return max(l_height+1, r_height+1);
+        // total height = 1 + max height of its children
+		return max(l_height+1, r_height+1); 
 	}
 
 }
@@ -48,7 +49,7 @@ int height(Node* node)
 void print_level(Node* root, int level)
 {
 	if(root == NULL) return;
-	if(level == 1)  cout<<root->data<<" "<<endl;
+	if(level == 1)  cout<<root->data<<" "<<endl; 
 	else if(level > 1) 
 	{
 		print_level(root->left, level-1);
@@ -60,7 +61,7 @@ void print_level(Node* root, int level)
 void level_order(Node* root)
 {
 	int h = height(root);
-	for(int i=1;i<=h;i++)
+	for(int i=1;i<=h;i++)     
 	{
 		print_level(root, i);
 	}
