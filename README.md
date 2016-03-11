@@ -1,2 +1,6 @@
-# DS-Algo
-Data structure and algorithms implementation [C++]
+#Data structure and algorithms 
+
+* Tree
+    * Breadth First Traversal (Level Order) --------------- [recursive] -------[stl-queue] 
+* Graphs
+* 
