@@ -1,4 +1,3 @@
-#Data structure and algorithms 
+Internet of Things
 
-* Hackerrank 
-* Geeksforgeeks
+* Bluetooth Low Energy
