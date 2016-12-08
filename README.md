@@ -1,3 +1,7 @@
+Embedded
+
+* Power Banks
+
 Internet of Things
 
-* Bluetooth Low Energy
+* Bluetooth Low Energy / Android
